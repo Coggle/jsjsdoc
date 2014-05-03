@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+var program = require("commander");
+var jsjsdoc = require("../");
+
+
+program.version("TODO")
+       .option('-o, --output <filepath>', 'output file', String, process.cwd() + '/output.md')
+       .command("jsjsdoc files...");
+
+program.parse(process.argv);
+
+jsjsdoc.process(program.args, {output: program.output}, function(err){
+    if(err)
+        throw err;
+    console.log("Complete.");
+});
