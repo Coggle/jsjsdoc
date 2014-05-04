@@ -1,35 +1,38 @@
 {
   "name": "jsjsdoc",
   "description": "jsjsdoc is a documentation generator that uses javascript within comments to define documentation",
-  "version": "0.0.0",
-    "author": {
-        "name": "James Crosby",
-        "email": "james@coggle.it"
+  "version": "0.1.0",
+  "author": {
+    "name": "James Crosby",
+    "email": "james@coggle.it"
   },
   "dependencies": {
-      "commander": "*",
-      "acorn": "*",
-      "async": "*"
+    "commander": "*",
+    "acorn": "*",
+    "async": "*"
   },
   "devDependencies": {
-      "grunt-contrib-jshint": "*",
-      "grunt": "*"
+    "grunt-contrib-jshint": "*",
+    "grunt": "*"
   },
   "bin": {
     "jsjsdoc": "./bin/jsjsdoc"
   },
-  "keywords": ["documentation", "doc", "markdown"],
+  "keywords": [
+    "documentation",
+    "doc",
+    "markdown"
+  ],
   "repository": {
-    "type": "git", 
+    "type": "git",
     "url": "https://github.com/coggle/jsjsdoc.git"
   },
   "main": "index",
   "licenses": [
-      {
-          "type": "MIT",
-          "url": "https://github.com/coggle/jsjsdoc/blob/master/license.md"
-      }
+    {
+      "type": "MIT",
+      "url": "https://github.com/coggle/jsjsdoc/blob/master/license.md"
+    }
   ],
-  "scripts": { 
-  }
+  "scripts": {}
 }
