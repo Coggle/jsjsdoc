@@ -85,7 +85,7 @@ CoggleApi.prototype = {
 Note that the post() method is ommitted from the documentation because it was
 marked as `$api:"private"`.
 
-```markdown
+````markdown
     ##Class `CoggleApi`
     The Coggle API client.
     
@@ -109,7 +109,7 @@ marked as `$api:"private"`.
          Title for the created diagram.
       * **`callback`** type: `Function`  
          Callback accepting (Error, CoggleApiDiagram)
-```
+````
 
 
 ### Reference
