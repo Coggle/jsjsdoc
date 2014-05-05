@@ -30,7 +30,9 @@
   "bin": {
     "jsjsdoc": "./bin/jsjsdoc"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "grunt mochaTest"
+  },
   "dependencies": {
     "commander": "*",
     "acorn": "*",
