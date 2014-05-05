@@ -31,7 +31,7 @@
     "jsjsdoc": "./bin/jsjsdoc"
   },
   "scripts": {
-    "test": "grunt mochaTest"
+    "test": "node ./node_modules/.bin/grunt mochaTest"
   },
   "dependencies": {
     "commander": "*",
@@ -42,6 +42,7 @@
     "grunt-contrib-jshint": "*",
     "grunt-contrib-watch": "*",
     "grunt": "*",
+    "grunt-cli": "*",
     "assert": "*",
     "mocha": "*",
     "grunt-mocha-test": "*"
