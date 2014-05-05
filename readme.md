@@ -1,4 +1,5 @@
 ##jsjsdoc
+[![Build Status](https://travis-ci.org/Coggle/jsjsdoc.svg?branch=master)](https://travis-ci.org/Coggle/jsjsdoc)
 [![NPM version](https://badge.fury.io/js/jsjsdoc.svg)](http://badge.fury.io/js/jsjsdoc)
 
 Documentation generator for javascript using JSON within comments to describe
