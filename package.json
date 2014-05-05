@@ -38,6 +38,10 @@
   },
   "devDependencies": {
     "grunt-contrib-jshint": "*",
-    "grunt": "*"
+    "grunt-contrib-watch": "*",
+    "grunt": "*",
+    "assert": "*",
+    "mocha": "*",
+    "grunt-mocha-test": "*"
   }
 }
