@@ -81,5 +81,22 @@ describe("module", function(){
       });
     });
   });
+  
+
+  describe("detail", function(){
+    it('should generate detail sections', function(done){
+    jsjsdoc.process("./test/source/detail.js", function(err, doc){
+        if(err)
+          throw err;
+        describe("detail:classdetail", function(){
+          // very crude test that we're generating something
+          it('should contain the detailed description', function(){
+            assert(doc.indexOf('second paragraph') !== -1);
+          });
+        });
+        done();
+      });
+    });
+  });
 
 });
