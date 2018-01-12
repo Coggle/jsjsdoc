@@ -20,12 +20,7 @@
     "url": "https://github.com/Coggle/jsjsdoc/issues",
     "email": "jsjsdoc-bugs@coggle.it"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/coggle/jsjsdoc/blob/master/license.md"
-    }
-  ],
+  "license": "MIT",
   "main": "index",
   "bin": {
     "jsjsdoc": "./bin/jsjsdoc"
@@ -34,17 +29,17 @@
     "test": "node ./node_modules/.bin/grunt mochaTest"
   },
   "dependencies": {
-    "commander": "*",
-    "acorn": "*",
-    "async": "*"
+    "acorn": "^5.3.0",
+    "async": "^2.6.0",
+    "commander": "^2.13.0"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "*",
-    "grunt-contrib-watch": "*",
-    "grunt": "*",
-    "grunt-cli": "*",
-    "assert": "*",
-    "mocha": "*",
-    "grunt-mocha-test": "*"
+    "assert": "^1.4.1",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-mocha-test": "^0.13.3",
+    "mocha": "^4.1.0"
   }
 }
